@@ -22,6 +22,8 @@ public class JobDatasourceServiceImpl extends ServiceImpl<JobDatasourceMapper, J
     @Resource
     private JobDatasourceMapper datasourceMapper;
 
+
+    
     @Override
     public int update(JobDatasource datasource) {
         return datasourceMapper.update(datasource);
